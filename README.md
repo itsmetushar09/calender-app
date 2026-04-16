@@ -13,7 +13,7 @@ Inspired by a **physical wall calendar**, this project combines aesthetics with 
 
 ## 🎥 Demo Video
 
-👉 *(Add Loom / YouTube link here)*
+👉 https://www.loom.com/share/f3e72ca2deff41bcad4f24bf15a8a8f3
 
 ---
 
