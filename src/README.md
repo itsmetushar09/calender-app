@@ -6,13 +6,13 @@ A modern, responsive, and visually appealing **Interactive Calendar Web App** bu
 
 ## 🚀 Live Demo
 
-👉 *(Add your deployed link here — Vercel/Netlify)*
+👉 https://calender-app-5x77.onrender.com/
 
 ---
 
 ## 🎥 Demo Video
 
-👉 *(Add your Loom/YouTube link here)*
+👉 https://www.loom.com/share/f3e72ca2deff41bcad4f24bf15a8a8f3
 
 ---
 
@@ -90,7 +90,7 @@ src/
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/your-username/calendar-app.git
+git clone   https://github.com/itsmetushar09/calender-app
 ```
 
 ### 2️⃣ Navigate to project
@@ -113,11 +113,7 @@ npm run dev
 
 ---
 
-## 📸 Screenshots
 
-*(Add your UI screenshots here)*
-
----
 
 ## 📌 Future Improvements
 
