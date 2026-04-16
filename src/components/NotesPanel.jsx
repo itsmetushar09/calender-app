@@ -2,15 +2,15 @@ import { useState, useEffect } from "react";
 
 export default function NotesPanel({ startDate, endDate, date }) {
 
-  // Always define hooks FIRST (important rule)
+ 
   const [note, setNote] = useState("");
 
-  // Stable key (better logic)
+  
   const key = startDate
     ? `note-${date.getFullYear()}-${date.getMonth()}-${startDate}-${endDate || startDate}`
     : null;
 
-  // Load note when key changes
+
   useEffect(() => {
     if (!key) return;
 
@@ -23,7 +23,7 @@ export default function NotesPanel({ startDate, endDate, date }) {
     localStorage.setItem(key, note);
   };
 
-  // UI when no date selected
+  
   if (!startDate) {
     return (
       <div className="notes-box">

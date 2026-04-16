@@ -7,7 +7,7 @@ Inspired by a **physical wall calendar**, this project combines aesthetics with 
 
 ## 🚀 Live Demo
 
-👉 *(Add your deployed link — Vercel recommended)*
+👉 https://calender-app-5x77.onrender.com/
 
 ---
 
@@ -111,7 +111,7 @@ src/
 ### 1️⃣ Clone the repository
 
 ```bash id="cmd1"
-git clone https://github.com/your-username/calendar-app.git
+git clone https://github.com/itsmetushar09/calender-app
 ```
 
 ### 2️⃣ Navigate into project

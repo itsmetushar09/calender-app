@@ -14,7 +14,7 @@ function App() {
   const [startDate, setStartDate] = useState(null);
   const [endDate, setEndDate] = useState(null);
 
-  // 🎨 THEME COLORS (based on month)
+  
   const month = date.getMonth();
 
   const themes = [
@@ -29,9 +29,9 @@ function App() {
   return (
     <div className="app-container">
 
-      {/* 🎬 Animated Calendar Card */}
+      {}
       <motion.div
-        key={date.getMonth()}   // 🔥 important for flip
+        key={date.getMonth()}   
         className="calendar-card"
         style={{ "--theme-color": themeColor }}
         initial={{ rotateY: 90, opacity: 0 }}
@@ -39,7 +39,7 @@ function App() {
         transition={{ duration: 0.5 }}
       >
 
-        {/* 🖼 HERO IMAGE */}
+        {}
         <div className="image-section">
           <img src={hero} alt="calendar" />
 
@@ -51,13 +51,13 @@ function App() {
           </div>
         </div>
 
-        {/* 📦 CONTENT */}
+        {}
         <div className="content-section">
 
-          {/* 📌 HEADER */}
+          {}
           <Header date={date} setDate={setDate} />
 
-          {/* 📅 CALENDAR */}
+          {}
           <CalendarGrid
             date={date}
             startDate={startDate}
@@ -66,7 +66,7 @@ function App() {
             setEndDate={setEndDate}
           />
 
-          {/* 📝 NOTES */}
+          {}
           <NotesPanel
             startDate={startDate}
             endDate={endDate}

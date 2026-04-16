@@ -6,7 +6,7 @@ export default function DayCell({
   setStartDate,
   setEndDate
 }) {
-  // 🟡 Empty cell (before month starts)
+  
   if (!day) return <div style={{ height: "40px" }}></div>;
 
   const todayDate = new Date();
@@ -16,7 +16,7 @@ export default function DayCell({
     date.getMonth() === todayDate.getMonth() &&
     date.getFullYear() === todayDate.getFullYear();
 
-  // 🧠 CLICK LOGIC (SMART RANGE SELECTION)
+  
   const handleClick = () => {
     if (!startDate) {
       setStartDate(day);
@@ -39,7 +39,7 @@ export default function DayCell({
   const isStart = day === startDate;
   const isEnd = day === endDate;
 
-  // 🎨 BACKGROUND LOGIC (GRADIENT LOOK)
+  
   let background = "white";
 
   if (isStart) background = "#2563eb";
